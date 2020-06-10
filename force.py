@@ -20,7 +20,7 @@ Rang = 100
 Rdir = "FLAT"
 Fang = -91
 
-img = Image.open("images/ExampleOfForce.jpg")
+img = Image.open("ExampleOfForce.jpg")
 img.show()
 
 while (Rang<-90 or Rang>90):
