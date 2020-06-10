@@ -19,7 +19,7 @@ canvas1.create_window(400, 40, window=labeltop)
 
 width = 550
 height = 300
-path = 'images/ExampleOfForce.jpg'
+path = 'ExampleOfForce.jpg'
 img = Image.open(path)
 img = img.resize((width, height), Image.ANTIALIAS)
 photoImg = ImageTk.PhotoImage(img)
